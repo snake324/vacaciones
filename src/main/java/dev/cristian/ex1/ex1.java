@@ -40,7 +40,7 @@ public static int obtenerCantidadDias(int numeroMes) {
     if (numeroMes >= 1 && numeroMes <= 12) {
         return diasPorMes[numeroMes - 1];
     } else {
-        return -1; // Valor indicando mes inválido
+        return -1;
     }
 }
 }
