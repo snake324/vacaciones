@@ -2,7 +2,8 @@ package dev.cristian.ex1;
 
 import java.util.Scanner;
 
-public class ex1 {    public static void main(String[] args) {
+public class ex1 {    
+    public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     System.out.print("Ingresa el número de un mes (1-12): ");
     int numeroMes = scanner.nextInt();
